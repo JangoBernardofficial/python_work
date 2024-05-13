@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOCUS STUDIO LTD</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .welcome-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+        }
+        .btn {
+            margin: 0 10px;
+        }
+        #r1{
+            height: 6vh;
+
+            background-color: aqua;
+            width: 20vh;
+            text-align: center;
+            text-transform: uppercase;
+            
+
+        }
+        a{
+            text-decoration: none;
+        }
+
+        #l1{
+
+
+background-color: rgb(81, 255, 0);
+height: 6vh;
+width: 20vh;
+text-align: center;
+text-transform: uppercase;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO  INFOCUS STUDIO LTD</h1>
+<br>
+<br>
+
+
+        <div class="btn-group">
+            <a href="{{ url_for('register') }}" class="btn btn-primary" id="r1">Register</a>
+            <a href="{{ url_for('login') }}" class="btn btn-secondary" id="l1">Login</a>
+        </div>
+    </div>
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

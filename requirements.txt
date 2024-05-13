@@ -1,0 +1,5 @@
+request
+python-docker
+flask
+mysqlconnector
+flask-mysqldb
